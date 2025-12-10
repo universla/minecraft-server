@@ -1,0 +1,14 @@
+{
+  "name": "Bedrock Server Dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-vscode.cpptools",
+        "oderwat.indent-rainbow"
+      ]
+    }
+  },
+  "postCreateCommand": "chmod +x scripts/*.sh && echo '✅ Entorno listo para desarrollo Bedrock'"
+}
